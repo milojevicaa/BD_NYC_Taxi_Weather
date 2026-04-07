@@ -1,0 +1,21 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: nyc_taxi_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: nyc_taxi_jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo_data:

@@ -1,2 +1,2 @@
 # BD_NYC_Taxi_Weather
-Analyse von New Yorker Taxi-Fahrten und Wetterereignissen für das Projekt Big Data Infrastructure
+Dieses Projekt analysiert den Zusammenhang zwischen Wetterdaten und NYC Taxi-Fahrten im Januar 2023. Das Notebook enthält die Daten-Pipeline, MapReduce-Aggregationen und Visualisierungen.

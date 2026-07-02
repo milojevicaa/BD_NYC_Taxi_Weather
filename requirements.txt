@@ -1,0 +1,11 @@
+setuptools<81
+pandas
+pyarrow
+requests
+beautifulsoup4
+kafka-python
+pyspark==3.5.1
+pymongo
+matplotlib
+seaborn
+jupyterlab
